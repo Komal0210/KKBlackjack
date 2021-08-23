@@ -17,7 +17,8 @@ public class Main {
         System.out.println("How much cash do you want to start with?");
         Scanner money = new Scanner(System.in);
         cash = money.nextInt();
-
+/*
+Hello*/
         System.out.println("You start with cash: " + cash);
 
         while (cash > 0) {
